@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internal Storage(Text)"
+            android:textSize="22sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn_create_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Internal"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_save_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Internal"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_read_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Internal"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_delete_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Internal"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="External Storage(Text)"
+            android:textSize="22sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_create_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create External"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_save_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save External"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_read_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read External"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_delete_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete External"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save photo in Internal or External"
+            android:textSize="22sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_save_photo_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Photo Internal"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_save_photo_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Photo External"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_open_images"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="open saved images activity"/>
+
+
+
+        <Button
+            android:id="@+id/btn_open_settings"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="open settings"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
